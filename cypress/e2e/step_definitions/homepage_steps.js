@@ -5,8 +5,12 @@ import {
   } from "@badeball/cypress-cucumber-preprocessor";
   
 
-  When("the user visits homepage", () => {
+  Given("the user visit homepage", () => {
     cy.visit("/");
+
+   //Eliminar cookies.
+    cy.clearCookies(); 
+
   });
 
  

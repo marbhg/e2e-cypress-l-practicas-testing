@@ -1,7 +1,6 @@
-Feature: Open Bootcamp QA
+Feature: Visit website the book house 
 
-    As studen, I want to open bootcamp qa, so I can see training courses
+    As user, I access the homepage visible header 
 
-
-    Scenario: Visit Bootcamp QA Web
-        When the user visits homepage
+    Scenario: Visit website
+        Given the user visit homepage

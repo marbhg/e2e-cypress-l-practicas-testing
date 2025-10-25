@@ -25,5 +25,5 @@ module.exports = defineConfig({
     projectId: "sdg6sh",
     baseUrl: "https://www.casadellibro.com/",
     chromeWebSecurity: true
-  },
+  }
 });
