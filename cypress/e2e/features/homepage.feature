@@ -4,3 +4,4 @@ Feature: Visit website the book house
 
     Scenario: Visit website
         Given the user visit homepage
+        When the user enter the contact sections 
