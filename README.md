@@ -1,5 +1,5 @@
 ### 💻 Description
-This project is designed to perform end-to-end (E2E) tests for the [The book house](https://www.casadellibro.com/). It automates testing across both desktop and mobile browsers to ensure a high-quality user experience. The tests are executed weekly as part of a continuous integration (CI) pipeline to detect issues early.
+This project is designed to perform end-to-end (E2E) tests for the [QA Practicas](https://qarmy.ar/webs-practicas-testing/). It automates testing across both desktop and mobile browsers to ensure a high-quality user experience. The tests are executed weekly as part of a continuous integration (CI) pipeline to detect issues early.
 
 These tests cover key user flows and functionalities, validating the website’s reliability and performance. 
 
@@ -27,5 +27,5 @@ You can view the latest test results on [Cypress Cloud](https://cloud.cypress.io
 
 
 ##  Run tests on CI with github Actions:
-1. Run tests on CI (Needs permisions): https://github.com/marbhg/e2e-cypress-lacasadelibro/actions
+1. Run tests on CI (Needs permisions): https://qarmy.ar/webs-practicas-testing/
 

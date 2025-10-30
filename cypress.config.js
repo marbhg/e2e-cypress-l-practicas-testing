@@ -23,7 +23,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
     projectId: "sdg6sh",
-    baseUrl: "https://www.casadellibro.com/",
+    baseUrl: "https://qarmy.ar/webs-practicas-testing/",
     chromeWebSecurity: true
   }
 });

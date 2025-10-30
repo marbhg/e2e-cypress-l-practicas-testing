@@ -11,6 +11,10 @@ import {
    //Eliminar cookies.
     cy.clearCookies(); 
 
-  });
+
+});
+
+
+
 
  
