@@ -17,3 +17,4 @@ When("the user enter the contact sections", () => {
     .should('exist')
     .click({ force: true });
 });
+
