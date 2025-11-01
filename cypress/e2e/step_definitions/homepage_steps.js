@@ -18,3 +18,11 @@ When("the user enter the contact sections", () => {
     .click({ force: true });
 });
 
+When ("The user must fill in the name field {string}", (name)=>{
+  cy.get('input[placeholder="Ingresa tu Nombre"]').clear().type(name);
+});
+
+When ("the user must fill in the email {string}", (email)=>{
+  cy.get('input[placeholder="info@qarmy.com"]').clear().type(email);
+});
+
