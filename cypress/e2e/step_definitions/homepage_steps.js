@@ -3,7 +3,7 @@ const { Given, When, Then } = require("@badeball/cypress-cucumber-preprocessor")
 Given("the user visit homepage", () => {
   cy.visit("/");
   // Eliminar cookies.
-  cy.clearCookies(); // <-- El cy.clearCookies() se cierra aquí
+  cy.clearCookies();
 });
 
 // Ingresar al apartado de contacto
