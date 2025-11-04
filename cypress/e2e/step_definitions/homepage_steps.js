@@ -30,12 +30,11 @@ When("the user enters the following message {string}", (message) => {
   cy.get('textarea[placeholder="Escribí tu mensaje"]:visible').clear().type(message);
 });
 
-Then("The user submits the form", () => {
-  cy.get('button[type="submit"]').click();
+When("the user button submit", () => {
+  cy.contains('button[type="submit"]', 'Enviar').click();
 });
 
-
-
-
-
+Then("the form is submitted, the appropriate success message must be displayed to the user", () => {
+  cy.get('.wpcf7-response-output').should('be.visible').and('contain', 'Tu mensaje se envió correctamente. Muy pronto te responderemos');
+});
 
