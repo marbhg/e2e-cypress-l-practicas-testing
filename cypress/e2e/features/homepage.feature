@@ -9,4 +9,5 @@ Feature: Visit website the book house
         And the user must fill in the email "mar@hotmail.com"
         And the user must enter the subject "Informacion"
         And the user enters the following message "Deseo toda la informacion para la inscripcion"
+        Then the user button submit
 

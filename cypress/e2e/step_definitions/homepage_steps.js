@@ -30,6 +30,10 @@ When("the user enters the following message {string}", (message) => {
   cy.get('textarea[placeholder="Escribí tu mensaje"]:visible').clear().type(message);
 });
 
+Then("The user submits the form", () => {
+  cy.get('button[type="submit"]').click();
+});
+
 
 
 
